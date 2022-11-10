@@ -4,7 +4,7 @@
             <div class="col-sm-6" style="margin: 0 auto">
                 <div class="card" v-for="post in allPosts" :key="post.key">
                     <div class="card-body">
-                        <h5 class="card-title">Ім`я: {{ post.name }}</h5>
+                        <h5 class="card-title">Ім'я: {{ post.name }}</h5>
                         <h5 class="card-title">Призвіще: {{ post.sureName }}</h5>
                         <h5 class="card-title">Почта: {{ post.email }}</h5>
                         <p class="card-text">
