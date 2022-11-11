@@ -6,7 +6,7 @@
         class="input-title" placeholder="name">
     </div>
     <div class="title">
-      <h2>Призвіще</h2>
+      <h2>Прізвище</h2>
       <input v-model="article.sureName" type="text" :class="{ 'border-danger': $v.article.sureName.$invalid }"
         class="input-title" placeholder="surename">
     </div>
@@ -21,7 +21,7 @@
         class="form-control body-text" aria-label="With textarea" placeholder="problem"></textarea>
     </div>
     <br>
-    <button :disabled="$v.article.$invalid" class="button-add-title btn btn-info" @click="addPost"> Відпривити</button>
+    <button :disabled="$v.article.$invalid" class="button-add-title btn btn-info" @click="addPost"> Відправити</button>
   </div>
 </template>
 <script>
