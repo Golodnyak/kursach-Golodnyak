@@ -1,7 +1,7 @@
 <template>
   <div class="containe container-add-title">
     <div class="title">
-      <h2>Ім`я</h2>
+      <h2>Ім'я</h2>
       <input v-model="article.name" type="text" :class="{ 'border-danger': $v.article.name.$invalid }"
         class="input-title" placeholder="name">
     </div>

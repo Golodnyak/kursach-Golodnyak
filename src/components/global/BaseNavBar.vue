@@ -2,10 +2,7 @@
 <template>
   <div class="center examplex">
     <vs-navbar center-collapsed v-model="active" style="background:#A3E2FB">
-      <template #left>
-        <img src="/logo2.png" alt="">
-      </template>
-
+    
 
 
       <vs-navbar-group>
