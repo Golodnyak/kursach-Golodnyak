@@ -4,7 +4,7 @@ const path = require('path')
 
 
 const app = express()
-
+//some 
 
 app.use('/', serveStatic(path.join(__dirname, 'dist')))
 
